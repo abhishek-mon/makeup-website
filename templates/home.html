@@ -14,9 +14,15 @@
     <link rel="stylesheet" href="{{ url_for("static", filename="style.css")}}"
 </head>
 <body>
-   <div>
-    {% include "nav.html" %}
-
+   <div id="body">
+    <div class="nav">{% include "nav.html" %}</div>
+    <div class="carsel">
+    {% include "carosel.html"%}
+    </div>
+    <div class="row">
+        <h2 class="mt-4 inline-word text-center col-12">Naturaly Beautyful makeup</h2>
+        <h2 class="mt-2 inline-word text-center col-12">for your spacial Event</h2>
+    </div>
    </div>
 </body>
 </html>
