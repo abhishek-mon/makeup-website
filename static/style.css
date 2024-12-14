@@ -1,5 +1,9 @@
 body{
-    padding-top: 180px;
+    padding-top: 170px;
+    background-color: #D6CFB4;
+}
+.navbar-brand{
+    padding: 0;
 }
 .nav-link
 {
@@ -11,10 +15,11 @@ body{
 .nav-item{
     margin: 0, auto;
 }
+
 .dropdown-item{
     font-family: "Homemade Apple",cursive;
     font-weight: 400;
-    background-color:#4A4947 ;
+    background-color:#8D0B41 ;
     color: white;
 }
 
