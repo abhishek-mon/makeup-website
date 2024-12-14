@@ -1,0 +1,21 @@
+.nav-link
+{
+    font-family: "Homemade Apple",cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+.nav-item{
+    margin: 0, auto;
+}
+.dropdown-item{
+    font-family: "Homemade Apple",cursive;
+    font-weight: 400;
+    background-color:#4A4947 ;
+    color: white;
+}
+
+
+.nav-item :hover{
+    border-bottom: 3px solid black;
+}
