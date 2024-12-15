@@ -9,7 +9,7 @@ def hello_world():
     return render_template("home.html")
 
 if __name__ == "__main__":
-    app.run("0.0.0.0", debug=True)
+    app.run(debug=True)
     
 # def text():
 #      x =  "Naturaly Beautiful Makeup For Your Spacial Event"
